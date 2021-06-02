@@ -4,12 +4,17 @@ const prompt = require('prompt-sync')( );
 
 //get input from user
 
+<<<<<<< HEAD
 const color = prompt('Enter a color or a "color + color": ');
+=======
+const color = prompt('Enter a color?');
+>>>>>>> b53357e29a362b4ba657a3f2f1b151d2cf546739
 
 const rainBow = (color);
 
 //color set
 
+<<<<<<< HEAD
 // Color combining
 
 const isPurple = 'red + blue';
@@ -21,6 +26,23 @@ const isGreen = 'blue + yellow';
 const redBlue = 'purple';
 const redYellow = 'orange';
 const blueYellow = 'green'; 
+=======
+const isRed = red;
+const isBlue = blue;
+const isYellow = Yellow;
+
+// Color combining
+
+const isPurple = (isRed + isBlue);
+const isOrange = (isRed + isYellow);
+const isGreen = (isBlue + isYellow);
+
+//Color deconstructing
+
+const redBlue = purple;
+const redYellow = orange;
+const blueYellow = green; 
+>>>>>>> b53357e29a362b4ba657a3f2f1b151d2cf546739
 
 //log out colors
 
@@ -45,4 +67,7 @@ else if (rainBow === blueYellow){
 else{
     console.log('Error');
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b53357e29a362b4ba657a3f2f1b151d2cf546739
