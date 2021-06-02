@@ -14,7 +14,6 @@ const rainBow = (color);
 
 //color set
 
-<<<<<<< HEAD
 // Color combining
 
 const isPurple = 'red + blue';
@@ -26,7 +25,6 @@ const isGreen = 'blue + yellow';
 const redBlue = 'purple';
 const redYellow = 'orange';
 const blueYellow = 'green'; 
-=======
 const isRed = red;
 const isBlue = blue;
 const isYellow = Yellow;
@@ -42,7 +40,6 @@ const isGreen = (isBlue + isYellow);
 const redBlue = purple;
 const redYellow = orange;
 const blueYellow = green; 
->>>>>>> b53357e29a362b4ba657a3f2f1b151d2cf546739
 
 //log out colors
 
